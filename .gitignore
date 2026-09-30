@@ -1,0 +1,30 @@
+# ---- PlatformIO ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.clang_complete
+.gcc-flags.json
+
+# ---- Build artefacts ----
+*.elf
+*.bin
+*.map
+*.hex
+*.o
+*.a
+
+# ---- IDE / editors ----
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.code-workspace
+*.swp
+*~
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Local secrets / overrides ----
+platformio_local.ini
+secrets.h
